@@ -5,6 +5,8 @@ import scala.concurrent.duration._
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
+//https://docs.google.com/presentation/d/1AqLjEni3k72Xuq9wcNtdx9XDyaUKA6ftVLNEa1cHJ-0/edit?usp=sharing
+
 class AiGatlingDemo_stress extends Simulation {
   // mvn gatling:test -Dgatling.simulationClass=simulations.AiGatlingDemo_stress -Dgatling.http.ahc.connectTimeout=20000
   // http://ec2-54-91-204-127.compute-1.amazonaws.com:3000/factorial/800

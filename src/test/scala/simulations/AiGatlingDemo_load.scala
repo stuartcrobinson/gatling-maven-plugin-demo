@@ -5,6 +5,8 @@ import scala.concurrent.duration._
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
+////https://docs.google.com/presentation/d/1AqLjEni3k72Xuq9wcNtdx9XDyaUKA6ftVLNEa1cHJ-0/edit?usp=sharing
+
 class AiGatlingDemo_load extends Simulation {
   //  mvn gatling:test -Dgatling.simulationClass=simulations.AiGatlingDemo_load
   //file:///Users/stuart.robinson/repos/gatling-maven-plugin-demo/target/gatling/aigatlingdemo-load-1534464076043/index.html
