@@ -1,13 +1,5 @@
 gatling-maven-plugin-demo
 =========================
 
-Simple showcase of a maven project using the gatling-maven-plugin.
+see src/test/scala/simulations
 
-To test it out, simply execute the following command:
-
-    $mvn gatling:test -Dgatling.simulationClass=computerdatabase.BasicSimulation
-
-or simply:
-
-    $mvn gatling:test
-# gatling-maven-plugin-demo
